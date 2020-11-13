@@ -13,7 +13,7 @@ void setup() {
     WiFi.disconnect(); //disconnect from an AP if it was previously connected
     
     //add multiple Wi-Fi networks
-    wifiMulti.addAP("2nd_Floor", "Lakpass321.");
+    wifiMulti.addAP("ssid_from_AP_1", "your_password_for_AP_1");
     wifiMulti.addAP("ssid_from_AP_2", "your_password_for_AP_2");
  
     Serial.println("Connecting to WiFi.."); //print string
