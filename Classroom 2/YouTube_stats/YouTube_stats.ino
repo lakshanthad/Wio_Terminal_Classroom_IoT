@@ -8,10 +8,10 @@
 TFT_eSPI tft; //initialize TFT LCD
 TFT_eSprite spr = TFT_eSprite(&tft); //initialize buffer
 
-const char* ssid     = "2nd_Floor"; //WiFi name 
-const char* password = "Lakpass321."; //WiFi password 
-String apiKey = "AIzaSyBxhx4n8NOIRZkz0xc0PRAHheLd2ApCltw"; //YouTube API key
-String channelId = "UC5mX-JaRWXc8cBc1gm5kKhg"; //YouTube channel ID
+const char* ssid     = ""; //WiFi name 
+const char* password = ""; //WiFi password 
+String apiKey = ""; //YouTube API key
+String channelId = ""; //YouTube channel ID
 
 const char*  server = "www.googleapis.com";  //server URL
 const char* test_root_ca = \
