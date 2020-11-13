@@ -1,7 +1,7 @@
 #include "rpcWiFi.h" //include Wi-Fi library 
  
-const char* ssid = "2nd_Floor"; //Wi-Fi name 
-const char* password =  "Lakpass321."; //Wi-Fi password 
+const char* ssid = ""; //Wi-Fi name 
+const char* password =  ""; //Wi-Fi password 
  
 void setup() {
     Serial.begin(115200); //start serial communication
