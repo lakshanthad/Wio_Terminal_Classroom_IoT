@@ -1,7 +1,7 @@
 #include "rpcWiFi.h" //include Wi-Fi library 
  
-const char* ssid = ""; //Wi-Fi name 
-const char* password =  ""; //Wi-Fi password 
+const char* ssid = "Enter_WiFI_name"; //Wi-Fi name 
+const char* password =  "Enter_WiFi_password"; //Wi-Fi password 
 
 // Use WiFiClient class to create TCP connections
 WiFiClient client;
@@ -33,8 +33,8 @@ void setup() {
 }
  
 void loop() {
-    const uint16_t port = 80; //default port of server 
-    const char* host = "192.168.0.103";  //IP address of server 
+    const uint16_t port = 80; //default port of server (80 for http and 443 for https)
+    const char* host = "Enter_IP_adress_of_server";  //IP address of server 
  
     Serial.print("Connecting to ");
     Serial.println(host); //print server IP address
