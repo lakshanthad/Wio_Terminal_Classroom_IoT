@@ -16,7 +16,7 @@ const char* password =  "Enter_WiFi_password"; //Wi-Fi password    "Lakpass321."
 
 
 const char* serverName = "api.thingspeak.com"; //Domain Name for HTTP POST Request
-String apiKey = "254FF66SFA2EACJK"; //"Write API Key" from ThingSpeak
+String apiKey = "Enter_Write_API_Key"; //"Write API Key" from ThingSpeak
 
 // Use WiFiClient class to create TCP connections
 WiFiClient client;
