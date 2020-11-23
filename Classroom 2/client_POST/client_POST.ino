@@ -80,7 +80,7 @@ void loop() {
   Serial.println(serverName); //print server IP address
 
   //check whether Wio Terminal is connected to server
-  if (!client.connect(serverName, 80)) {
+  if (!client.connect(serverName, 80)) {  //80 is default port of HTTP
       Serial.println("Connection failed!");
   } else {
       Serial.println("Connected to server!");
