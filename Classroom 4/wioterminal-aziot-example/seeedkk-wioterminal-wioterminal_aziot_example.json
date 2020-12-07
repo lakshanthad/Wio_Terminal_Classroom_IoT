@@ -1,0 +1,42 @@
+{
+  "@id": "dtmi:local:wioterminal_aziot_example;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Seeed Wio Terminal",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "temp",
+      "displayName": "Temperature (C)",
+      "schema": "integer"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "humi",
+      "displayName": "Humidity (%RH)",
+      "schema": "integer"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "light",
+      "displayName": "Light Intensity (%)",
+      "schema": "integer"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "soil",
+      "displayName": "Soil Moisture (%)",
+      "schema": "integer"
+    },
+    {
+      "@type": "Command",
+      "name": "ringBuzzer",
+      "displayName": "Ring buzzer",
+      "request": {
+        "name": "duration",
+        "displayName": "Duration",
+        "schema": "integer"
+      }
+    }
+  ]
+}
