@@ -521,16 +521,12 @@ void setup()
 
 void loop()
 {
-    // temp = dht.readTemperature(); //assign variable to store temperature 
-    // humi = dht.readHumidity(); //assign variable to store humidity
-    // light = analogRead(WIO_LIGHT); //assign variable to store light sensor values 
-    // light = map(light,0,1023,0,100); //Map sensor values 
-    // soil = analogRead(A1); //Store sensor values 
-    // soil = map(soil,1023,400,0,100); //Map sensor values 
-    temp = 36;
-    humi = 56;
-    light = 95;
-    soil = 63;
+    temp = dht.readTemperature(); //assign variable to store temperature 
+    humi = dht.readHumidity(); //assign variable to store humidity
+    light = analogRead(WIO_LIGHT); //assign variable to store light sensor values 
+    light = map(light,0,1023,0,100); //Map sensor values 
+    soil = analogRead(A1); //Store sensor values 
+    soil = map(soil,1023,400,0,100); //Map sensor values 
 
     //sprite buffer for temperature
     spr.createSprite(35, 25); //create buffer
