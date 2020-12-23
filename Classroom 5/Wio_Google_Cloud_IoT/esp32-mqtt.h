@@ -129,12 +129,12 @@ unsigned long getNTPtime() {
 
 }
 
-/////////////////////////////////
-//// Helpers specific to this board
-/////////////////////////////////
-//String getDefaultSensor(){
-//  return "Wifi: " + String(WiFi.RSSI()) + "db";
-//}
+///////////////////////////////
+// Helpers specific to this board
+///////////////////////////////
+String getDefaultSensor(){
+ return "Wifi: " + String(WiFi.RSSI()) + "db";
+}
 
 String getJwt(){
 //  iat = time(nullptr);
